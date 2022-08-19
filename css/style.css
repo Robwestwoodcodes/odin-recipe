@@ -1,0 +1,50 @@
+/* CSS Rules for Odin-recipe website */
+
+    #background-home { 
+    Background-image: URL(~~~); 
+    Background-repeat: no-repeat; 
+    Background-attachment: fixed; 
+    Background-size: cover; 
+    } 
+    
+    #background-recipe { 
+    Background-color: rgb(204,204,205); 
+    Background-repeat:no-repeat; 
+    Background-attachment:fixed; 
+    Background-size:cover; 
+    }
+
+    .header, 
+    .header-main { 
+    Font-size: x-large; 
+    } 
+    
+     .header { 
+    Font-size: large; 
+    Font-weight:bold; 
+    } 
+    
+    .section { 
+    Word-wrap: break-word; 
+    }
+
+    Div, .section { 
+    Box-sizing: border-box; 
+    Width: 300px; 
+    Height: 100px; 
+    Padding: 30px; 
+    Border: 10px solid black; 
+    }
+
+    .nav { 
+    Color: solid green; 
+    } 
+    
+     .nav, 
+    .odin { 
+    Box-sizing: border-box; 
+    Width: 300px; 
+    Height: 100px; 
+    Padding: 30px; 
+    Border: 10px solid blue; 
+    } 
