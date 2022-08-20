@@ -1,7 +1,7 @@
 /* CSS Rules for Odin-recipe website */
 
     #background-home { 
-    Background-image: URL(~~~); 
+    Background-image: URL(../images/background-main.jpg); 
     Background-repeat: no-repeat; 
     Background-attachment: fixed; 
     Background-size: cover; 
@@ -34,28 +34,48 @@
     Font-size: large; 
     Font-weight:bold; 
     } 
+
+    .list {
+        display: inline block;
+        text-align: left;
+    }
     
     .section { 
     Word-wrap: break-word; 
+    Width: 700px ; 
     }
 
-    .tight-box {
-        width:500px;
+    .section-extra {
+        width:400px;
     }
 
     Div, .section { 
     Box-sizing: border-box;
     background-color: rgb(153,255,153); 
     margin: 20px auto;
-    Width: 750px; 
     Height: auto; 
     Padding: 20px; 
-    Border: 5px solid black; 
+    Border: 5px solid black;
+    border-radius: 5px; 
     }
 
-    div, .section, #tight-box {
-     width:500px;
-    }
+    ol {counter-reset: item;}
+ol li {display: block;}
+ol li:before {content: counter(item) ". "; counter-increment: item; font-weight: bold;}
+
+    .button {
+        background-color: #4CAF50;
+        border: 2px solid black;
+        color: white;
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        margin: 4px 2px;
+        cursor: pointer;
+        border-radius: 12px;
+      }
 
     .nav { 
     Color: solid green; 
@@ -65,9 +85,9 @@
     .odin { 
     Box-sizing: border-box;
     background-color: rgb(255,166,177); 
-    margin: 20px auto;
+    margin: 10px auto;
     Width: 300px; 
-    Height: 100px; 
+    Height: auto; 
     Padding: 20px; 
     Border: 10px solid blue; 
     } 
