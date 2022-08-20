@@ -8,7 +8,7 @@
     } 
     
     #background-recipe { 
-    Background-color: rgb(204,204,205); 
+    Background-image: url(../images/background-image.webp); 
     Background-repeat:no-repeat; 
     Background-attachment:fixed; 
     Background-size:cover; 
@@ -19,6 +19,10 @@
         text-align: center;
         font-size: medium;
         color: black;
+    }
+
+    .img {
+        border: 2.5px solid black;
     }
 
     .header, 
@@ -42,11 +46,11 @@
     Div, .section { 
     Box-sizing: border-box;
     background-color: rgb(153,255,153); 
-    margin: auto;
+    margin: 20px auto;
     Width: 750px; 
     Height: auto; 
-    Padding: 25px; 
-    Border: 10px solid black; 
+    Padding: 20px; 
+    Border: 5px solid black; 
     }
 
     div, .section, #tight-box {
@@ -61,9 +65,9 @@
     .odin { 
     Box-sizing: border-box;
     background-color: rgb(255,166,177); 
-    margin: auto;
+    margin: 20px auto;
     Width: 300px; 
     Height: 100px; 
-    Padding: 30px; 
+    Padding: 20px; 
     Border: 10px solid blue; 
     } 
