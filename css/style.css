@@ -35,12 +35,22 @@
     Word-wrap: break-word; 
     }
 
+    .tight-box {
+        width:500px;
+    }
+
     Div, .section { 
-    Box-sizing: border-box; 
-    Width: 300px; 
-    Height: 100px; 
-    Padding: 30px; 
+    Box-sizing: border-box;
+    background-color: rgb(153,255,153); 
+    margin: auto;
+    Width: 750px; 
+    Height: auto; 
+    Padding: 25px; 
     Border: 10px solid black; 
+    }
+
+    div, .section, #tight-box {
+     width:500px;
     }
 
     .nav { 
@@ -49,7 +59,9 @@
     
      .nav, 
     .odin { 
-    Box-sizing: border-box; 
+    Box-sizing: border-box;
+    background-color: rgb(255,166,177); 
+    margin: auto;
     Width: 300px; 
     Height: 100px; 
     Padding: 30px; 
