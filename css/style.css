@@ -14,6 +14,13 @@
     Background-size:cover; 
     }
 
+    .body {
+        font-family: Verdana, Geneva, Tahoma, sans-serif;
+        text-align: center;
+        font-size: medium;
+        color: black;
+    }
+
     .header, 
     .header-main { 
     Font-size: x-large; 
